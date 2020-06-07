@@ -10,148 +10,137 @@
 <body>
     <!-- Яратган эгамга мингдан минг шукур булсин  -->
     <header class="header">
-        <div class="container">
-            <div class="header__inner">
+        <div class="header__topbox">
+            <div class="container">
                 <div class="header__top">
-                    <div class="hader__top-btn">Получите подарок сейчас</div>
+                    <div class="top__btn">
+                        <a class="top__btn-link link1" href="#" >Получите подарок сейчас</a>
+                        <a class="top__btn-link link2" href="#" >Получите подарок</a>
+                        <img class="top__btn-img" src="/images/link/present.png"> 
+                    </div>
                     <div class="header__top-search">
                         <form>
-                            <input type="text">
-                            <button></button>
+                            <input type="text" placeholder="ПОИСК ПО САЙТУ">
+                            <button type="submit" style="background-image: url(/images/link/search.png);"></button>
                         </form>
                     </div>
                     <div class="header__top-langbox">
-
+                        <select id="lang" tabindex="1">
+                            <option value="RUS" data-icon="/images/lang/rus.png"></option>
+                            <option value="ENG" data-icon="/images/lang/eng.png"></option>
+                            <option value="IT" data-icon="/images/lang/it.png"></option>
+                            <option value="IR" data-icon="/images/lang/ir.png"></option>
+                        </select>
                     </div>
                     <div class="header__top-linkbox">
-
+                        <a href="#" style="background-image: url(/images/link/top/facebook.png);"></a>
+                        <a href="#" style="background-image: url(/images/link/top/youtube.png);"></a>
                     </div>
                     <div class="header__top-contactbox">
-                        <div class="contactbox-img"></div>
-                        <a class="contactbox-link" href="#">Свяжитесь с нами</a>
+                        <a class="contactbox-img" href="#" style="background-image: url(/images/link/top/mail.png);"></a>
+                        <a class="contactbox-text" href="#">Свяжитесь с нами</a>
                     </div>
-                </div>
-                <div class="header__menu">
-                    <ul>
-                        <li><a href="#"></a></li>
-                        <li><a href="#">О БРЕНДЕ</a></li>
-                        <li><a href="#">ПРОДУКЦИЯ</a></li>
-                        <li><a href="#">ПОДБОР МАСЛА</a></li>
-                        <li><a href="#">ГДЕ КУПИТЬ</a></li>
-                        <li><a href="#">G-Energy Service</a></li>
-                    </ul>
-                    <div class="header__menu-logo"></div>
                 </div>
             </div>
         </div>
+        <div class="header__menubox" style="background-image: url(/images/bg-top.jpg);">
+            <div class="container">
+                <div class="menu__box">
+                    <div class="menu__btn">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="header__menu">
+                        <ul>
+                            <li><a href="#" class="menu__img" style="background-image: url(/images/link/main.png);"></a></li>
+                            <li><a href="#">О БРЕНДЕ</a></li>
+                            <li><a href="#">ПРОДУКЦИЯ</a></li>
+                            <li><a href="#">ПОДБОР МАСЛА</a></li>
+                            <li><a href="#">ГДЕ КУПИТЬ</a></li>
+                            <li><a href="#">G-Energy Service</a></li>
+                            <li><a href="#">Новости</a></li>
+                        </ul>
+                    </div>
+                    <div class="header__logo">
+                        <div class="header__menu-logo" style="background-image: url(/images/logo/logo-top.png);"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
     </header>
     
     <section class="acf">
         <div class="container">
             <div class="acf__inner">
-                <div class="asf__title">ТЕХНОЛОГИЯ AC</div>
+                <div class="acf__title">ТЕХНОЛОГИЯ AC</div>
                 <div class="acf__text">Adaptive Components Formula</div>
+                
                 <div class="acf__box">
                     <div class="acf__item">
-                        <div class="acf__item-img"></div>
+                        <div class="acf__item-img fors" style="background-image: url(/images/texnology/fors.png);"></div>
                         <div class="acf__item-text">ФОРСИРОВАННЫЙ РЕЖИМ РАБОТЫ</div>
                     </div>
                     <div class="acf__item">
-                        <div class="acf__item-img"></div>
+                        <div class="acf__item-img zim" style="background-image: url(/images/texnology/zim.png);"></div>
                         <div class="acf__item-text">ЗИМНИЙ РЕЖИМ ЭКСПЛУАТАЦИИ</div>
                     </div>
                     <div class="acf__item">
-                        <div class="acf__item-img"></div>
+                        <div class="acf__item-img city" style="background-image: url(/images/texnology/city.png);"></div>
                         <div class="acf__item-text">РЕЖИМ ГОРОДСКОЙ ПРОБКИ</div>
                     </div>
-                    <div class="acf__item">
-                        <div class="acf__item-img"></div>
-                        <div class="acf__item-text">Режим загародной трассы</div>
+                    <div class="acf__item road_1000">
+                        <div class="acf__item-img road_1000" style="background-image: url(/images/texnology/road.png);"></div>
+                        <div class="acf__item-text road_1000">Режим загародной трассы</div>
                     </div>
                     <div class="acf__item">
-                        <div class="acf__item-img"></div>
-                        <div class="acf__item-text">УЗНАЙТЕ больше</div>
+                        <div class="acf__item-img more" style="background-image: url(/images/texnology/more.png);"></div>
+                        <div class="acf__item-text more-text">УЗНАЙТЕ больше</div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
     <footer class="footer">
         <div class="container">
             <div class="footer__topbox">
-                <div class="footer__logo"></div>
+                <div class="footer__logo logo1" style="background-image: url(/images/logo/gazprom-logo.png);"></div>
                 <div class="footer__linkbox">
-                    <div class="footer__link">
-                        <img src="" class="max__link">
-                    </div>
-                    <div class="footer__link">
-                        <img src="" class="max__link">
-                    </div>
-                    <div class="footer__link" class="max__link">
-                        <img src="">
-                    </div>
+                    <a href="#" style="background-image: url(/images/link/footer/facebook.png);"></a>
+                    <a href="#" style="background-image: url(/images/link/footer/youtube.png);"></a>
+                    <a href="#" style="background-image: url(/images/link/footer/mail.png);"></a>
                 </div>
+                <div class="footer__logo logo2" style="background-image: url(/images/logo/gazprom-logo.png);"></div>
                 <div class="footer__recommendation">
-                    <div class="recom__item">
-                        <img src="" alt="" class="recom__item-img">
-                        <div class="recom__item-text">РЕКОМЕНДУЕТ</div>
-                    </div>
-                    <div class="recom__item">
-                        <img src="" alt="" class="recom__item-img">
-                        <div class="recom__item-text">РЕКОМЕНДУЕТ</div>
-                    </div>
+                    <a class="recom__item one" href="#" style="background-image: url(/images/logo/cherry.png);"></a>
+                    <a class="recom__item two" href="#" style="background-image: url(/images/logo/lifan.png);"></a>
                 </div>
             </div>
             <div class="footer__middlebox">
                 <div class="middlebox__item">
                     <div class="middlebox__item-text">мне нравится</div>
                     <div class="middlebox__links">
-                        <div class="middlebox__link">
-                            <img src="" alt="" class="mini__link">
-                        </div>
-
-                        <div class="middlebox__link">
-                            <img src="" alt="" class="mini__link">
-                        </div>
-
-                        <div class="middlebox__link">
-                            <img src="" alt="" class="mini__link">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="middlebox__item">
-                    <div class="middlebox__item-text">мне нравится</div>
-                    <div class="middlebox__links">
-                        <div class="middlebox__link">
-                            <img src="" alt="" class="mini__link">
-                        </div>
-                        <div class="middlebox__link">
-                            <img src="" alt="" class="mini__link">
-                        </div>
-                        <div class="middlebox__link">
-                            <img src="" alt="" class="mini__link">
-                        </div>
+                        <a href="#" style="background-image: url(/images/link/bottom/facebook.png);"></a>
+                        <a href="#" style="background-image: url(/images/link/bottom/b.png);"></a>
+                        <a href="#" style="background-image: url(/images/link/bottom/twitter.png);"></a>
                     </div>
                 </div>
 
                 <div class="middlebox__item">
                     <div class="middlebox__item-text">поделиться</div>
                     <div class="middlebox__links">
-                        <div class="middlebox__link">
-                            <img src="" alt="" class="mini__link">
-                        </div>
-                        <div class="middlebox__link">
-                            <img src="" alt="" class="mini__link">
-                        </div>
-                        <div class="middlebox__link">
-                            <img src="" alt="" class="mini__link">
-                        </div>
+                        <a href="#" style="background-image: url(/images/link/bottom/facebook.png);"></a>
+                        <a href="#" style="background-image: url(/images/link/bottom/b.png);"></a>
+                        <a href="#" style="background-image: url(/images/link/bottom/ok.png);"></a>
+                        <a href="#" style="background-image: url(/images/link/bottom/twitter.png);"></a>
                     </div>
                 </div>
+                
             </div>
             <div class="footer__bottombox">
-                <div class="bottombox__text">
+                <div class="bottombox__text logo1">
                     © 2009–2014, «Газпромнефть - смазочные материалы», 
                     <a href="#">Контакты</a>
                 </div>
@@ -162,6 +151,10 @@
                         <li><a href="#">Italian</a></li>
                         <li><a href="#">Српски</a></li>
                     </ul>
+                </div>
+                <div class="bottombox__text logo2">
+                    © 2009–2014, «Газпромнефть - смазочные материалы», 
+                    <a href="#">Контакты</a>
                 </div>
                 <div class="bottombox__author">
                     Создание сайта – <a href="#">«Энсайн»</a>
